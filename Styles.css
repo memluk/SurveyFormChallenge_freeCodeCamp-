@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poller+One&display=swap');
+
+body {
+	font-family:'Lato', sans-serif;
+	font-size: 1.1rem;
+	text-align: center;
+	color: white;
+	margin: auto;
+	width: 500px;
+}
+
+#background {
+  position: absolute;
+	object-fit: cover; /* it makes the background picture to cover all area, independent from the screen size */
+  left: 0;
+  top: 0;
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	filter: blur(3px);
+  z-index: -1; /* it takes the background picture behind */
+}
+
+
+
+#title {text-align: center;}
+#description {text-align: center;}
+
+#survey-form {
+	position: center;
+	border-radius: 5px;
+	display: block;
+  margin: auto;
+  width: 100%;
+  padding: 5%;
+  background-color: darkblue;
+  opacity: .8;
+}
+
+#name {
+	height: 30px;
+  width: 100%;
+  margin: auto;
+	margin-top: 5px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#email {
+	height: 30px;
+  width: 100%;
+  margin: auto;
+	margin-top: 5px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#number {
+	margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#name-label {
+	margin: auto; 
+	text-align: left;
+}
+
+#email-label {
+	text-align: left;
+}
+
+#number-label {
+	text-align: left;
+}
+
+#dropdown {
+	margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.radio {
+	text-align: left;
+}
+
+#feature {
+	margin-top: 5px;
+	height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.checkbox {
+  margin: auto;
+	text-align: left;
+}
+
+#comment {
+	margin-top: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#submit {
+  color: white;
+  background-color: green;
+  height: 50px;
+  width: 101%;
+}
